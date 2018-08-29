@@ -10,11 +10,11 @@
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/foundation.css">
-    <link rel="stylesheet" href="./assets/css/app.css">
-    <link rel="stylesheet" href="./assets/css/sprite.css">
-    <script src="./assets/js/foundation.js" defer></script>
-    <script src="./assets/js/app.js" type="module" defer></script><!--[if lt IE 9]>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/sprite.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" type="module" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -35,17 +35,13 @@
         <div class="hero__bg"></div>
         <div class="socials-header">
           <ul class="socials">
-            <li class="socials__item"><a class="socials__link socials__link_vk" href="">
+            <li class="socials__item"><a class="socials__link socials__link_vk" href="https://vk.com/dashakleo">
                 <svg class="icon">
                   <use xlink:href="assets/img/sprite.svg#vk"></use>
                 </svg></a></li>
-            <li class="socials__item"><a class="socials__link socials__link_github" href="">
+            <li class="socials__item"><a class="socials__link socials__link_github" href="https://github.com/Dashakleo?tab=repositories">
                 <svg class="icon">
                   <use xlink:href="assets/img/sprite.svg#github"></use>
-                </svg></a></li>
-            <li class="socials__item"><a class="socials__link socials__link_in" href="">
-                <svg class="icon">
-                  <use xlink:href="assets/img/sprite.svg#in"></use>
                 </svg></a></li>
           </ul>
           <div class="menu-icon" id="menu-icon">
@@ -60,7 +56,7 @@
         <div class="hero__title"><img class="section__title" src="assets/img/portfolio_header.png" alt="">
           <div class="user hero__user-block">
             <div class="user__photo">
-              <div class="user__photo-avatar"><img class="user__photo-img" src="assets/img/hero_mini.JPG" alt=""></div>
+              <div class="user__photo-avatar"><img class="user__photo-img" src="assets/img/hero_mini.jpg" alt=""></div>
             </div>
             <div class="user__name">Колотушкина Дарья</div>
             <div class="user__desc">Личный сайт веб разработчика</div>
@@ -86,15 +82,15 @@
       </div>
       <div class="works"> 
         <div class="works-left">
-          <div class="works-left__content active">
+          <div class="works-left__content active animate" data-animation="toRight">
             <div class="subtitle-underline">Название</div>
             <div class="works__tags">HTML, CSS</div><a class="button button_site" href="#">Посмотреть сайт</a>
           </div>
-          <div class="works-left__content">
+          <div class="works-left__content animate toRight">
             <div class="subtitle-underline">Название2</div>
             <div class="works__tags">HTML, CSS, JS</div><a class="button button_site" href="#">Посмотреть сайт</a>
           </div>
-          <div class="works-left__content">
+          <div class="works-left__content animate toRight">
             <div class="subtitle-underline">Название3</div>
             <div class="works__tags">HTML, CSS</div><a class="button button_site" href="#">Посмотреть сайт    </a>
           </div>
@@ -136,7 +132,7 @@
         <div class="leaf-second"></div>
         <div class="leaf-third"></div>
       </div>
-      <div class="title feedback__title" style="background-image: url('assets/img/about_header.png')">Обо мне </div>
+      <div class="title feedback__title animate" style="background-image: url('assets/img/about_header.png')" data-animation="toTop">Обратная связь </div>
       <div class="feedback-block animate" data-animation="toTop">
         <div class="subtitle-underline">Связаться со мной</div>
         <form class="feedback-form" id="feedback-form">
@@ -165,21 +161,17 @@
                 <li class="menu__item"><a class="menu__link" href="works.html">Мои работы</a></li>
                 <li class="menu__item"><a class="menu__link" href="about.html">Обо мне</a></li>
                 <li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
-                <li class="menu__item"><a class="menu__link" href="login.html"> Авторизация</a></li>
+                <li class="menu__item"><a class="menu__link" href="/"> Главная</a></li>
               </ul>
               <div class="socials-footer">
                 <ul class="socials">
-                  <li class="socials__item"><a class="socials__link socials__link_vk" href="">
+                  <li class="socials__item"><a class="socials__link socials__link_vk" href="https://vk.com/dashakleo">
                       <svg class="icon">
                         <use xlink:href="assets/img/sprite.svg#vk"></use>
                       </svg></a></li>
-                  <li class="socials__item"><a class="socials__link socials__link_github" href="">
+                  <li class="socials__item"><a class="socials__link socials__link_github" href="https://github.com/Dashakleo?tab=repositories">
                       <svg class="icon">
                         <use xlink:href="assets/img/sprite.svg#github"></use>
-                      </svg></a></li>
-                  <li class="socials__item"><a class="socials__link socials__link_in" href="">
-                      <svg class="icon">
-                        <use xlink:href="assets/img/sprite.svg#in"></use>
                       </svg></a></li>
                 </ul>
               </div>
